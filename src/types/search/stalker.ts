@@ -22,6 +22,7 @@ export type Users = {
   commerceUser: boolean
   usernameModifyTime: number
   nicknameModifyTime: number
+  createTime: number
 }
 
 export type Stats = {
