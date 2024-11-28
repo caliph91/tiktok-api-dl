@@ -126,7 +126,8 @@ const parseDataUser = (dataUser: any, posts: Posts[]) => {
     region: dataUser.user.region,
     commerceUser: dataUser.user.commerceUserInfo.commerceUser,
     usernameModifyTime: dataUser.user.uniqueIdModifyTime,
-    nicknameModifyTime: dataUser.user.nickNameModifyTime
+    nicknameModifyTime: dataUser.user.nickNameModifyTime,
+    createTime: data.user.createTime
   }
 
   // Statistics Result
